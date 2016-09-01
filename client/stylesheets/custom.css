@@ -1,0 +1,158 @@
+
+.input1{
+float: center;
+margin: 0px 0px 20px 0px;
+height: 100px;
+/* Input Value: */
+font-family: AvenirNext-Regular;
+font-size: 30px;
+color: #4A4A4A;
+/* Rectangle 2: */
+
+border: 1px solid #000000;
+border-radius: 8px;
+box-shadow: 2px 2px
+
+}
+
+.input2{
+float: center;
+margin: 0px 0px 20px 0px;
+height: 100px;
+/* Input Value: */
+font-family: AvenirNext-Regular;
+font-size: 30px;
+color: #4A4A4A;
+/* Rectangle 2 Copy 2: */
+border: 1px solid #000000;
+border-radius: 8px;
+box-shadow: 2px 2px
+
+}
+
+.input3{
+float: center;
+margin: 0px 0px 20px 0px;
+height: 100px;
+/* Input Value: */
+font-family: AvenirNext-Regular;
+font-size: 30px;
+color: #4A4A4A;
+/* Rectangle 2 Copy: */
+border: 1px solid #000000;
+border-radius: 8px;
+box-shadow: 2px 2px
+
+}
+
+
+
+.floatbox{
+float: center;
+margin: 20px 20px 20px 20px;
+padding: 20px 20px 20px 20px;
+background: #FFFFFF;
+border: 1px solid #000000;
+box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+border-radius: 2px;
+}
+
+.navbar-default{
+
+margin: 10px 10px 0px 10px;
+
+}
+
+.submit{
+
+	float:right;
+}
+
+.category{
+
+	border-bottom: 1px solid #000;
+    font-size: 25px;
+}
+
+.answer{
+
+	box-shadow: 0px 0px 10px 0px 
+}
+
+.categorybox{
+/* Badge Reverse: */
+background: #FFFFFF;
+border: 1px solid #CCCCCC;
+}
+
+.header-top-menu {
+    display: inline-block;
+    width: calc(100% - 370px);
+    line-height: 57px;
+}
+
+.container-header {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    display: inline-block;
+    background-color: #2b2e39;
+    width: 100%;
+    animation: all 0.2s;
+    height: 55px;
+}
+
+.addwordtext {
+
+font-family: Helvetica-Bold;
+font-size: 40px;
+color: #6B6B6B;
+}
+
+.okbutton {
+
+    /* Large Button / Active: */
+/* BG: */
+background: white;
+height: 100px;
+width: 300px;
+font-family: Helvetica-Bold;
+font-size: 30px;
+color: #6B6B6B;
+float: right;
+box-shadow: 2px 2px
+
+
+}
+
+.headertext {
+font-size: 25px;
+margin: 0 20px 0 20px;
+}
+
+
+
+.bigbtn {
+
+    height:80px;
+    width:120px;
+}
+
+.category1{
+
+    font-size: 25px;
+    
+}
+
+.tabletxt{
+
+    font-size: 20px;
+
+}
+
+.searchput{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+}
+

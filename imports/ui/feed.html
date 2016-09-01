@@ -1,0 +1,65 @@
+
+
+<template name = "feed">
+
+	<head>
+		<title>Feed Template</title>
+
+	</head>
+
+<body>
+
+
+
+<div class= "floatbox">
+<!-- there's blank spaces in the array so random will show it -->
+
+{{#with randomword}}
+
+	<br>
+	<p class = 'category'>{{randomword1.category}}</p>
+	
+	
+	<h3 style='font-size: 40px'>{{randomword1.vietword}}</h3>
+
+
+	<div id= 'answerdiv' style="display:none">
+		<p style='font-size: 40px' >English: {{randomword1.engword}}</p>
+	</div>
+	<br>
+	
+	<form class = 'wordcheck {{formcheck}}'>
+  			<div>
+    			<input  autocomplete="off" type="text" class = 'form-control' id='enganswerid' placeholder="Translate" style ="height:150px; font-size: 40px; ">
+    			<br>
+          <br>
+         <button type = 'submit' value = 'submit word' class="btn btn-primary bigbtn submit">Check</button>
+
+  			
+<br>
+ 		 	</div> 
+	</form>
+	
+<br>
+	<div class = 'nextword'>
+	<button type="text" class="btn btn-default bigbtn" style="font: 32px;" >Next</button>
+	</div>
+<br>
+	<div class = 'showword'>
+	<button type="text" class="btn btn-default bigbtn" style="font: 32px;">Give up</button>
+	</div>
+<br>
+
+
+	
+
+
+{{/with}}
+
+
+
+</div>
+
+</body>
+
+</template>

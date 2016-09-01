@@ -1,0 +1,54 @@
+<template name = "allwords">
+
+<head>
+		<title>All Words</title>
+
+
+ <!-- <script src="https://code.jquery.com/jquery-1.12.3.js"></script> -->
+
+
+</head>
+
+<body>
+
+
+<div class = 'searchbardiv floatbox' >
+<input  autocomplete="off" class='searchput' type="text" id="searchbar" placeholder="Type to search">
+</div>
+<br>
+<br>
+
+<div class="floatbox col-sm-8 col-md-8 col-lg-8">
+<table class="table table-hover">
+
+   <thead>
+   		<tr>
+   			<th>Vietnamese</th>
+   			<th>English</th>
+   		</tr>
+   	</thead>
+
+{{#with tablesearch}}
+   {{#each k in filter1 }}
+
+   	<tbody>
+   		<tr>
+         <td class='tabletxt'>{{k.vietword}}</td>
+         <td class='tabletxt'>{{k.engword}}</td>
+         </tr>
+   	</tbody>
+
+   {{/each}}
+ {{/with}}
+
+</table>
+
+</div>
+ 
+
+
+
+
+
+</body>
+</template>

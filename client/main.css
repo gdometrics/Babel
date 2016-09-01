@@ -1,0 +1,89 @@
+/* Input Background: */
+background: #FFFFFF;
+border: 1px solid #4A90E2;
+box-shadow: 0px 0px 2px 0px rgba(73,143,225,0.70);
+border-radius: 3px;
+/* Input Value: */
+font-family: AvenirNext-Regular;
+font-size: 14px;
+color: #4A4A4A;
+
+
+/* Input Background: */
+background: #FFFFFF;
+border: 1px solid #4A90E2;
+box-shadow: 0px 0px 2px 0px rgba(73,143,225,0.70);
+border-radius: 3px;
+/* Con Cho: */
+font-family: AvenirNext-DemiBold;
+font-size: 18px;
+color: #4A4A4A;
+line-height: 20px;
+
+
+/* hr: */
+background: #FFFFFF;
+border: 1px solid #979797;
+box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.50);
+/* Category: */
+font-family: AvenirNext-Medium;
+font-size: 16px;
+color: #4A4A4A;
+
+
+/* Ok Button: */
+
+
+/* Button Background: */
+background-image: linear-gradient(-180deg, #D8D8D8 0%, #B3B3B3 100%);
+border: 1px solid #979797;
+box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.20), inset 0px 2px 0px 0px #FFFFFF;
+border-radius: 6px;
+/* Play Audio: */
+font-family: AvenirNext-Bold;
+font-size: 14px;
+color: #4A4A4A;
+letter-spacing: 0px;
+text-shadow: 0px 1px 0px #FFFFFF;
+
+
+/* Button Background: */
+background-image: linear-gradient(-180deg, #D8D8D8 0%, #B3B3B3 100%);
+border: 1px solid #979797;
+box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.20), inset 0px 2px 0px 0px #FFFFFF;
+border-radius: 6px;
+/* Skip: */
+font-family: AvenirNext-Bold;
+font-size: 14px;
+color: #4A4A4A;
+letter-spacing: 0px;
+text-shadow: 0px 1px 0px #FFFFFF;
+
+
+/* Shape: */
+background: #979797;
+
+
+/* Rectangle 15: */
+background: #D8D8D8;
+border: 1px solid #979797;
+/* Line: */
+border: 1px solid #979797;
+/* Line: */
+border: 1px solid #979797;
+
+/* mine */
+
+input.newone{
+background: #FFFFFF;
+border: 10px solid #4A90E2;
+box-shadow: 0px 0px 2px 0px rgba(73,143,225,0.70);
+border-radius: 3px;
+/* Input Value: */
+font-family: AvenirNext-Regular;
+font-size: 14px;
+color: #4A4A4A;
+}
+
+
+
